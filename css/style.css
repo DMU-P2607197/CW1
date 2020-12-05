@@ -20,7 +20,7 @@ body{
 }
 /*Styling for every image on the website*/
 img{
-  hight: 80%;
+  width: 100%;
 }
 /*Styling <nav> on the website using flexbox*/
 nav{
