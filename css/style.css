@@ -90,7 +90,9 @@ section::after{
   display: block;
 }
 /*Styling audio and video to match the width of the site*/
-
+audio, video{
+  width: 100%;
+}
 /*Styling span tags*/
 .label{
   font-weight: bold;
