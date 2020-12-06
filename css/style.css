@@ -90,11 +90,8 @@ section::after{
   display: block;
 }
 /*Styling audio and video to match the width of the site*/
-video{
+audio, video{
   width: 100%
-}
-audio{
-  width: 50%; 
 }
 /*Styling span tags*/
 .label{
