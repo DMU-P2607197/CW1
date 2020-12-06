@@ -91,7 +91,7 @@ section::after{
 }
 /*Styling audio and video to match the width of the site*/
 audio, video{
-  width: 100%
+  width: 100%;
 }
 /*Styling span tags*/
 .label{
