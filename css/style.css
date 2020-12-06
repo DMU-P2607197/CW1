@@ -100,3 +100,7 @@ audio, video{
 .title{
   font-style: italic;
 }
+.inter{
+  font-weight: bold;
+  color: #BF0000;
+}
