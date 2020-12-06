@@ -1,0 +1,106 @@
+/*CSS stylesheet*/
+/*Style for the elements in the body*/
+body{
+  background-color: white;
+  text-align: center;
+  color: white;
+  font-family: serif;
+}
+/*Styling div with class 'batman' holding header*/
+.batman{
+  text-align: center;
+  color: #BF0000;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: -50px;
+  margin-bottom: -60px;
+  text-shadow: 10px 5px 5px grey;
+}
+/*Styling for every image on the website*/
+img{
+  width: 100%;
+}
+/*Styling <nav> on the website using flexbox*/
+nav{
+  display: flex;
+}
+/*Continuation of styling <nav> with a specification to the <a> elements*/
+nav a{
+  color: white;
+  padding: 15px;
+  flex-grow: 1;
+  text-align: center;
+  background-color: black;
+  justify-content: space-evenly;
+  text-decoration: none;
+  transition: 0.3s background-color;
+  box-shadow: 10px 5px 5px grey;
+}
+/*Styling <a> elements of the <nav> with class 'flex'*/
+.flex a{
+  margin: 10px;
+  box-shadow: 10px 5px 5px grey;
+}
+/*Styling <nav> with class 'cast'*/
+.cast{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*Styling <a> elements of <nav> with cursor hovering over it*/
+nav a:hover{
+  background-color: #262626;
+}
+/*Positoning cast images*/
+#RP, #ZK, #PD, #Post{
+  float: left;
+  width: 35%;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+/*Styling all sections and footer*/
+section, footer{
+  margin: 10px;
+  padding: 15px;
+  background-color: black;
+  text-align: left;
+  box-shadow: 10px 5px 5px grey;
+  padding-bottom: 5px;
+}
+/*Specification of the align of h2 and footer*/
+h2, footer{
+  text-align: center;
+}
+/*Styling h2*/
+h2{
+  margin-top: 2px;
+  color: #BF0000;
+  font-size: 20px;
+}
+/*Styling Title section*/
+#Title{
+  background-color: transparent;
+  box-shadow: none;
+}
+/*The clearfix to fix the floating of cast images*/
+section::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+/*Styling audio and video to match the width of the site*/
+audio, video{
+  width: 100%;
+}
+/*Styling span tags*/
+.label{
+  font-weight: bold;
+}
+.title{
+  font-style: italic;
+}
+.inter{
+  font-weight: bold;
+  color: #BF0000;
+}
