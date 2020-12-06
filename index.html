@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name='viewport'
+    content="width=device-width"/>
+<!-- The Meta viewport tag above makes the code suitable for viewing on mobile -->
+    <title>Homepage</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+<!-- The link above connects the html code to the external stylesheet -->
+  </head>
+<!-- In the body tag are all the contects visible on the website -->
+  <body>
+<!-- Using divs and sections helps group content of the page and adding ids helps helps in styling -->
+  <section id="Title">
+  <div>
+    <img src="img/logo.png" alt="The Batman logo">
+  <div class="batman">
+    <h1>The Batman</h1>
+  </div>
+  </div>
+  </section>
+<!-- Nav menu allows to move between homepage and cast page -->
+  <nav class="flex">
+      <a href="index.html">Home</a>
+      <a href="cast.html">Cast</a>
+  </nav>
+  <section id="Synopsis">
+    <div>
+      <h2>Synopsis</h2>
+    <img src="img/poster2.jpg" alt="Poster" id="Post">
+    <p>In his second year of fighting crime as Batman, a billionaire socialite and heir of Wayne Enterprises Bruce Wayne (Robert Pattinson) explores the corruption plauging his home, Gotham City, and the dark secrets of his own family, while also trying to solve the mystery of a serial killer known as the Riddler (Paul Dano).</p>
+    <p>
+      <span class="label">Initial release:</span> 4 March 2022 (USA)
+<!-- Span tag allows to style specific part of the paragraf -->
+    </p>
+    <p>
+      <span class="label">Director:</span> Matt Reeves
+    </p>
+    <p>
+      <span class="label">Music composed by:</span> Michael Giacchino
+    </p>
+    <p>
+      <span class="label">Cinematography:</span> Greig Fraser
+    </p>
+    <p>
+      <span class="label">Screenplay:</span> Matt Reeves, Peter Craig, Mattson Tomlin
+    </p>
+    </div>
+  </section>
+  <section id="Teaser">
+    <div class="Teaser">
+      <h2>Teaser</h2>
+<!-- Different file formats included incase a browser does not support the first one -->
+    <video width="100%" controls="true" poster="img/poster.jpg">
+      <source src="vid/teaser.mp4" type="video/mp4"/>
+      <source src="vid/teaser.webm" type="video/webm"/>
+      "Your browser does not support video tag."
+    </video>
+<!-- Option for viewing externally and download included -->
+    <p> If the video does not work on this site, click <a href="https://www.youtube.com/watch?v=6Vc0xXO_Sbs">here</a> to view or click <a href="vid/teaser.mp4">here</a> to download.</p>
+  </section>
+<!-- Footer with the author of the page a.k.a me!-->
+    <footer>Created by Iga Lapinska P2607197 Multimedia Coursework 1</footer>
+  </body>
+</html>
